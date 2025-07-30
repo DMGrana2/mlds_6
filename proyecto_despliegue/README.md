@@ -1,4 +1,4 @@
-# 🌍 API de Predicción de Deslizamientos con Deep Learning
+# API de Predicción de Deslizamientos con Deep Learning
 ---
 
 Este proyecto implementa una **API REST con FastAPI** para predecir la *susceptibilidad a deslizamientos* utilizando un modelo de **red neuronal convolucional (CNN)** previamente entrenado con datos geoespaciales.
@@ -9,13 +9,13 @@ URL: "https://web-production-8a55.up.railway.app/docs#/default/predecir_predict_
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Proveer un servicio web que permita predecir, a partir de un cubo de datos multibanda (13x13x7), la probabilidad de ocurrencia de un deslizamiento en una zona específica.
 
 ---
 
-## 🧠 Modelo
+## Modelo
 
 - Arquitectura: CNN profunda con 3 capas convolucionales y una capa densa final.
 - Entrenado con: 851 cubos extraídos de un stack multibanda de 7 variables.
@@ -25,7 +25,7 @@ Proveer un servicio web que permita predecir, a partir de un cubo de datos multi
 
 ---
 
-## 🚀 Despliegue
+## Despliegue
 
 El modelo se despliega como una API utilizando **FastAPI** y **Uvicorn**. Fue diseñado para ser desplegado fácilmente en plataformas como **Railway** o **Render**.
 
@@ -38,6 +38,6 @@ El modelo se despliega como una API utilizando **FastAPI** y **Uvicorn**. Fue di
 
 ---
 
-## ▶️ Uso de la API
+## Uso de la API
 
 ### Endpoint principal: `/predict` (POST)
